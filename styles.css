@@ -1,0 +1,118 @@
+.fixed-header {
+    width: 100%;
+    position: fixed;        
+    background:#3232ff;
+    padding: 10px 0;
+    color: #fff;
+}
+
+h1 {
+    color:orange;
+}
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgb(205,201,201);
+}
+
+h1 {
+    float: left;
+    font-size: 45px;
+    margin-top: 28px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    float: right;
+    font-size: 35px;
+    margin-top: 28px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right: 100px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+a:link {
+    color: white;
+}
+a:hover {
+    color: #808080;
+}
+a:active {
+    color: black;
+}
+
+li:first-child {
+    margin-right: 200px;
+ }
+ 
+ li:nth-child(2n) {
+     margin-right: 200px;
+ }
+ 
+ li:last-child {
+     margin-right: 0px;
+ }
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2,h3,h4 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+    text-indent: 48px;
+    line-height: 40px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Twitter {
+    display: inline-block;
+    margin-left: 575px;
+}
+
+.Instagram {
+    display: inline-block;
+    margin-left: 50px; 
+}
+
+.Discord {
+    display: inline-block;
+    margin-left: 50px;
+}
